@@ -5,9 +5,9 @@ const PageLayout = (props) => {
   return (
     <div>
         {/* Do not remove the main div */}
-        <h1>{props.header}</h1>
-        <h2>{props.children}</h2>
-        <h3>{props.footer}</h3>
+        <p>{props.header}</p>
+        <p>{props.children}</p>
+        <p>{props.footer}</p>
     </div>
   )
 }
